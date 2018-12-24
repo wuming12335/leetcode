@@ -47,6 +47,14 @@ public class Leetcode07 {
 		return l.intValue();
 
 	}
+	
+	public static int reverse3(int x) {
+		StringBuffer sb = new StringBuffer();
+		sb.append(x+"");
+		sb.reverse();
+		System.out.println(sb.toString());
+		return 0;
+	}
 
 	public static void main(String[] args) {
 		// max = 2147483647
@@ -58,9 +66,13 @@ public class Leetcode07 {
 		// int y = -2147483648;
 		// System.out.println(reverse2(y));
 
-		int z = 0;
-		System.out.println(reverse2(z));
+//		int z = 0;
+//		System.out.println(reverse2(z));
 
+		int x = 1534236469;
+		int y = -2147483648;
+		System.out.println(reverse3(x));
+		System.out.println(reverse3(y));
 	}
 
 }
