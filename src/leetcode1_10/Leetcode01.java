@@ -51,8 +51,7 @@ public class Leetcode01 {
 			map.put(nums[i],i);
 		}
 		for(int i=0;i<nums.length;i++) {
-			if(map.containsKey(target-nums[i])) {
-//				System.out.println(i+"-----"+map.get(target-nums[i]));
+			if(map.containsKey(target-nums[i]) && map.get(nums[i])!=i) {
 				return new int[]{i,map.get(target-nums[i])};
 			}
 		}
