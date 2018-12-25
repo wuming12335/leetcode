@@ -14,6 +14,7 @@ package leetcode1_10;
 原因：342 + 465 = 807
 */
 
+
 public class Leetcode02 {	
 	/*	
 	将当前结点初始化为返回列表的哑结点。
