@@ -42,6 +42,7 @@ public class Leetcode14 {
 				// 5.将每一个字符串的获取的字符放进set集合中
 				set.add(list.get(j).charAt(i));
 			}
+			
 			// 6.应为set集合是不能存放重复的字符，所以如果set的size大于1时，说明字符串的前缀已经不一样了
 			if (set.size() > 1) {
 				return common;
