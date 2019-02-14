@@ -32,7 +32,7 @@ public class Leetcode38 {
 		if(n==1) {
 			return "1";
 		}
-		String s = String.valueOf(countAndSay(n-1));
+		String s = countAndSay(n-1);
 		char c = s.charAt(0);
 		String result = "";
 		int j=1;
